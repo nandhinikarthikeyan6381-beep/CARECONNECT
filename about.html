@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container py-5 text-center">
+    <!-- Impact Stamp Photo -->
+    <div class="mb-4">
+        <img src="{{ url_for('static', filename='images/impact.jpg') }}" class="img-fluid rounded-circle shadow" alt="Impact" style="width: 160px; height: 160px; object-fit: cover;">
+    </div>
+    
+    <h2 class="fw-bold text-primary mb-3">Creating Real Impact</h2>
+    <p class="lead text-secondary mx-auto" style="max-width: 700px;">
+        Our platform bridges the gap between donors and verified non-governmental organizations. We ensure every contribution directly reaches communities in need with 100% transparency.
+    </p>
+</div>
+{% endblock %}
